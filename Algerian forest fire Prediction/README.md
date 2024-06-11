@@ -25,6 +25,30 @@ FWI Components
 11. Fire Weather Index (FWI) Index: 0 to 31.1
 12. Classes: two classes, namely   Fire and not Fire
 
+## Model Comparisons
+The goal is to compare different regression models to predict the class based on the given attributes.
+
+Linear Regression
+
+Mean Absolute Error (MAE): 0.5468
+Root Mean Square Error (RMSE): 0.7395
+R2 Score: 0.9848
+Ridge Regression
+
+MAE: 0.5642
+RMSE: 0.7512
+R2 Score: 0.9843
+Lasso Regression
+
+MAE: 1.1332
+RMSE: 1.0645
+R2 Score: 0.9492
+ElasticNet Regression
+
+MAE: 1.8822
+RMSE: 1.3719
+R2 Score: 0.8753
+
 ## Hyperparameter Tuning Results
 Using cross-validation techniques to fine-tune the hyperparameters of Ridge, Lasso, and ElasticNet models:
 
