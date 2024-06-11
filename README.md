@@ -9,4 +9,4 @@ Description: A project dedicated to predicting flight prices.
 ### PasswordStrengthPredictor(NLP) 🔐
 Description: A machine learning project aimed at evaluating and predicting the strength of passwords using advanced Natural Language Processing (NLP) techniques.
 ### Algerian forest fire Prediction(ML)🔥🌲
-Comming soon...
+Description: A machine learning project focused on predicting forest fires in Algeria based on meteorological data and fire weather indices. This project aims to aid in detection and prevention of forest fires by leveraging historical data and advanced prediction models.
