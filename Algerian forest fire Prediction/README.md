@@ -47,7 +47,7 @@ MSE: 0.6949
 R2 Score: 0.9843
 Best Alpha: 1.0
 
-##Analysis and Insights
+## Analysis and Insights
 Linear Regression and Ridge Regression perform similarly, achieving high R2 scores, indicating that they explain a significant portion of the variance in the data.
 Lasso Regression has a lower R2 score compared to Linear and Ridge, implying less explanatory power.
 ElasticNet Regression shows the lowest performance among the four models, indicating it might not be well-suited for this dataset without further tuning.
