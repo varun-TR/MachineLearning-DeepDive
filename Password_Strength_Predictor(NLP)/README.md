@@ -16,6 +16,6 @@ The NLP Password Strength Predictor is a machine learning project aimed at evalu
 - **Scikit-learn:** Machine learning library for model building and evaluation.
 - **Matplotlib & Seaborn:** Data visualization.
 
-Souce: Custom-made in sql.
+Source: Custom-made in sql.
 
 
