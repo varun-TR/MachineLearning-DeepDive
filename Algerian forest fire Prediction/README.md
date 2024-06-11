@@ -33,16 +33,19 @@ Linear Regression
 Mean Absolute Error (MAE): 0.5468
 Root Mean Square Error (RMSE): 0.7395
 R2 Score: 0.9848
+
 Ridge Regression
 
 MAE: 0.5642
 RMSE: 0.7512
 R2 Score: 0.9843
+
 Lasso Regression
 
 MAE: 1.1332
 RMSE: 1.0645
 R2 Score: 0.9492
+
 ElasticNet Regression
 
 MAE: 1.8822
