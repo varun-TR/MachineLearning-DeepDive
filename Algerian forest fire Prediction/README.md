@@ -24,3 +24,31 @@ FWI Components
 10. Buildup Index (BUI) index from the FWI system: 1.1 to 68
 11. Fire Weather Index (FWI) Index: 0 to 31.1
 12. Classes: two classes, namely   Fire and not Fire
+
+## Hyperparameter Tuning Results
+Using cross-validation techniques to fine-tune the hyperparameters of Ridge, Lasso, and ElasticNet models:
+
+RidgeCV
+
+MAE: 0.5642
+Mean Squared Error (MSE): 0.6949
+R2 Score: 0.9843
+Best Alpha: 1.0
+LassoCV
+
+MAE: 0.5642
+MSE: 0.6949
+R2 Score: 0.9843
+Best Alpha: 1.0
+ElasticNetCV
+
+MAE: 0.5642
+MSE: 0.6949
+R2 Score: 0.9843
+Best Alpha: 1.0
+
+##Analysis and Insights
+Linear Regression and Ridge Regression perform similarly, achieving high R2 scores, indicating that they explain a significant portion of the variance in the data.
+Lasso Regression has a lower R2 score compared to Linear and Ridge, implying less explanatory power.
+ElasticNet Regression shows the lowest performance among the four models, indicating it might not be well-suited for this dataset without further tuning.
+The hyperparameter tuning for RidgeCV, LassoCV, and ElasticNetCV yielded similar performance metrics, with the best alpha value found to be 1.0 for all.
