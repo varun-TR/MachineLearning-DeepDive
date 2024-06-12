@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Fire Prediction Input Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Forest Fire Prediction Input Form</h2>
+    <form action="{{url_for('predictdata_point')}}" method="post">
+        <div>
+            <label for="temperature">Temperature:</label>
+            <input type="number" id="temperature" name="Temperature" placeholder="Enter temperature (int)" required>
+        </div>
+        <div>
+            <label for="rh">Relative Humidity (RH):</label>
+            <input type="number" id="rh" name="RH" placeholder="Enter relative humidity (int)" required>
+        </div>
+        <div>
+            <label for="ws">Wind Speed (Ws):</label>
+            <input type="number" id="ws" name="Ws" placeholder="Enter wind speed (int)" required>
+        </div>
+        <div>
+            <label for="rain">Rain:</label>
+            <input type="number" id="rain" name="Rain" step="any" placeholder="Enter rain amount (float)" required>
+        </div>
+        <div>
+            <label for="ffmc">FFMC:</label>
+            <input type="number" id="ffmc" name="FFMC" step="any" placeholder="Enter FFMC (float)" required>
+        </div>
+        <div>
+            <label for="dmc">DMC:</label>
+            <input type="number" id="dmc" name="DMC" step="any" placeholder="Enter DMC (float)" required>
+        </div>
+        <div>
+            <label for="isi">ISI:</label>
+            <input type="number" id="isi" name="ISI" step="any" placeholder="Enter ISI (float)" required>
+        </div>
+        <div>
+            <label for="classes">Classes (0-not fire | 1-fire):</label>
+            <input type="number" id="classes" name="Classes" placeholder="Enter class (int)" required>
+        </div>
+        <div>
+            <label for="region">Region (0-Bejaia | 1-Sidi Bel-abbes):</label>
+            <input type="number" id="region" name="Region" placeholder="Enter region (int)" required>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    <h2>
+        The FWI prediction is : {{results}}
+    </h2>
+</body>
+</html>
