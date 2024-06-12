@@ -10,8 +10,8 @@ scaler = pickle.load(open('models/scaler.pkl','rb'))
 
 
 
-application = Flask(__name__)
-app=application
+app = Flask(__name__)
+
 
 
 
