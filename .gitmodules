@@ -1,0 +1,3 @@
+[submodule "Alegrian_Forest_Fire_prediction"]
+	path = Alegrian_Forest_Fire_prediction
+	url = https://github.com/varun-TR/Alegrian_Forest_Fire_prediction.git
