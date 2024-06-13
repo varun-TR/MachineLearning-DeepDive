@@ -4,3 +4,6 @@
 [submodule "Flight_price_prediction"]
 	path = Flight_price_prediction
 	url = https://github.com/varun-TR/Flight_price_prediction.git
+[submodule "Password_Strength_Predictor-NLP-"]
+	path = Password_Strength_Predictor-NLP-
+	url = https://github.com/varun-TR/Password_Strength_Predictor-NLP-.git
