@@ -7,3 +7,6 @@
 [submodule "Password_Strength_Predictor-NLP-"]
 	path = Password_Strength_Predictor-NLP-
 	url = https://github.com/varun-TR/Password_Strength_Predictor-NLP-.git
+[submodule "heart_disease_prediction"]
+	path = heart_disease_prediction
+	url = https://github.com/varun-TR/heart_disease_prediction.git
